@@ -1,2 +1,2 @@
 # InflablesMarijo
-Esta es una apgina web
+Esta es una pagina web

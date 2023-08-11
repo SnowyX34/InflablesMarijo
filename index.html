@@ -14,14 +14,12 @@
    </div>
 </body>
     <script>
-        // Esperar a que el contenido se cargue completamente
-        window.addEventListener("load", function() {
-            // Ocultar el mensaje de carga
-            var loadingMessage = document.getElementById("loadingMessage");
-            loadingMessage.style.display = "none";
+window.addEventListener("load", function() {
+    // Agrega un retraso de 5 segundos (5000 milisegundos) antes de redireccionar.
+    setTimeout(function() {
+        window.location.href = "nueva_pagina.html";
+    }, 5000);
+});
+</script>
 
-            // Redirigir a la nueva página
-            window.location.href = "index.php";
-        });
-    </script>
 </html>

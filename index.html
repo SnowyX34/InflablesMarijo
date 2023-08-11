@@ -1,5 +1,27 @@
-<html>
-  <body>
-    <h1>HOlis</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loding.css">
+</head>
+<body>
+   <div class="container">
+       <div class="loader"></div>
+       <p class="message">Cargando...</p>
+     <script>
+        // Esperar a que el contenido se cargue completamente
+        window.addEventListener("load", function() {
+            // Ocultar el mensaje de carga
+            var loadingMessage = document.getElementById("loadingMessage");
+            loadingMessage.style.display = "none";
+
+            // Redirigir a la nueva página
+            window.location.href = "index.php";
+        });
+    </script>
+   </div>
+</body>
 </html>
